@@ -1,0 +1,228 @@
+@charset /* CSS Document */
+* {
+margin:0;
+padding:0;
+}
+body, p, h1, h2, h3, h4, h5, h6, table, ul, li, form, input, button, table, tr, td {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif
+}
+body, p {
+	font-size: 12px;
+	border: none;
+}
+a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+ul, li {
+	list-style: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	-webkit-margin-start: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 12px;
+	display: block;
+}
+em, i, b {
+	font-style: normal;
+}
+.clear {
+	clear: both;
+}
+.main {
+	width: 1400px;
+	margin: 0 auto;
+}
+.head {
+	width: 100%;
+	overflow: hidden;
+	padding: 16px 0;
+	background: #467bbf;
+}
+.logo {
+	float: left;
+	color: #FFF;
+	font-size: 30px;
+	line-height: 56px;
+}
+.nav {
+	float: right;
+}
+.nav a {
+	font-size: 18px;
+	color: #fff;
+	padding-left: 84px;
+	line-height: 56px;
+}
+.nav a:hover span {
+	border-bottom: 3px solid #bc9823;
+}
+.nav a:hover {
+	color: #bc9823;
+}
+.nav a span.on {
+	border-bottom: 3px solid #bc9823;
+}
+.nav a.on {
+	color: #bc9823;
+}
+.banner {
+	width: 100%;
+	overflow: hidden;
+}
+.banner img {
+	width: 100%;
+}
+.jian {
+	width: 700px;
+	background: rgba(70,123,191,0.8);
+	padding: 20px;
+	margin-top: 90px;
+}
+.jian h1 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	padding-bottom: 10px;
+}
+.jian p {
+	font-size: 16px;
+	color: #FFF;
+	line-height: 26px;
+	padding-bottom: 10px;
+}
+.link {
+	width: 100%;
+	overflow: hidden;
+	background: #FFF;
+	padding: 30px 0;
+}
+.title {
+	width: 100%;
+	overflow: hidden;
+}
+.title h1 {
+	font-size: 36px;
+	color: #467bbf;
+	font-family: "Comic Sans MS", cursive, Algerian
+}
+.link_nr {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.link_nr p {
+	font-size: 16px;
+	line-height: 36px;
+	color: #333;
+}
+.pic {
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 0;
+}
+.pic img {
+	margin-right: 40px;
+	width: 300px;
+	height: 280px;
+	margin-bottom: 25px;
+}
+.foot {
+	width: 100%;
+	overflow: hidden;
+	background: #1f569d;
+	padding: 40px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #FFF;
+}
+.about {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 30px;
+}
+.about p {
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
+	padding-top: 10px;
+}
+.about_pic {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.about_pic img {
+	width: 49%;
+	height: 430px;
+	min-width: 430px;
+}
+.lx {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.lx li {
+	width: 49%;
+	float: left;
+	text-align: center;
+	height: 240px;
+	border-bottom: 1px dotted #CCC;
+}
+.lx li h2 {
+	color: #333333;
+	font-size: 24px;
+	line-height: 50px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.lx li h3 {
+	color: #666;
+	font-size: 14px;
+}
+.gong {
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 0 40px 0;
+}
+.gong_l {
+	width: 40%;
+	float: left;
+	padding-top: 40px;
+}
+.gong_l img {
+	width: 100%;
+}
+.gong_r {
+	width: 60%;
+	float: right;
+	padding-top: 60px;
+}
+.gong_r p {
+	font-size: 16px;
+	color: #333333;
+	line-height: 34px;
+	padding: 10px 0 0 20px;
+}
